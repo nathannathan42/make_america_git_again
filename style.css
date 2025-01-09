@@ -29,4 +29,14 @@ a:hover{
     background-color: white;
     color: #1e4887;
 }
+.link-to-page {
+    display: flex;
+    position: inherit;
+    flex-direction: column; /* Aligne les boutons verticalement */
+    align-items: center; /* Centre les boutons horizontalement */
+    gap: 10px; /* Espacement entre les boutons */
+    margin: 20px auto; /* Centrer la section sur la page */
+    width: 200px;
+}
+
 
