@@ -9,13 +9,11 @@ h1{
     text-align: center;
     margin-top: 350px;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
 
-button{
+
+a{
     border: 1px solid white;
+    text-decoration: none;
     background-color: transparent;
     color: white;
     padding: 10px 20px;
@@ -27,11 +25,8 @@ button{
     transform: translateX(-50%);
 }
 
-button:hover{
+a:hover{
     background-color: white;
-    color: #1e4887;
-}
-button, a:hover{
     color: #1e4887;
 }
 
